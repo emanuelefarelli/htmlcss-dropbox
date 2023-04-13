@@ -7,9 +7,7 @@
 /* GENERALI */
 
 body{
-    font-family: 'Cabin', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Quicksand', sans-serif;
 }
 
 .flex{
@@ -20,8 +18,68 @@ body{
     margin: 0 auto;
 }
 
+ul{
+    list-style-type: none;
+}
+
+.xs-txt{
+    font-size: 0.8rem;
+}
+
+.s-txt{
+    font-size: 1rem;
+}
+
+.m-txt{
+    font-size: 1.5rem;
+}
+
+.l-txt{
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.xl-txt{
+    font-size: 3.0rem;
+    font-weight: bolder;
+}
+
+
+
 /* HEADER */
 
 header{
-    height: 4rem;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li{
+    padding: 0 1.5rem;
+}
+
+header button{
+    margin-right: 1.5rem;
+}
+
+div.logo img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* JUMBO */
+
+section.jumbo{
+    height: 70vh;
+    background-color: #b4d0e7;
+}
+
+/* BUSINESS TYPE */
+
+section.business-type{
+    width: 60%;
+}
+
+section.business-type{
+    
 }

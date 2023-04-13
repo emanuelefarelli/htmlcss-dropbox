@@ -1,26 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Open+Sans:wght@300;600;800&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Open+Sans:wght@400;500;700;800&family=Quicksand:wght@500&display=swap" rel="stylesheet">
     <title>Dropbox</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-
+    <header class="flex">
+        <div class="flex header-left">
+            <div class="logo">
+                <img src="img/logo-small.png" alt="Dropbox small logo">
+            </div>
+            <nav class="s-txt">
+                <ul class="flex">
+                    <li>
+                        Perchè Dropbox
+                    </li>
+                    <li>
+                        Funzioni
+                    </li>
+                    <li>
+                        Piani e prezzi
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="flex header-rigth">
+            <nav class="s-txt">
+                <ul class="flex">
+                    <li>
+                        Supporto
+                    </li>
+                    <li>
+                        Contatta l'ufficio vendite
+                    </li>
+                    <li>
+                        Accedi
+                    </li>
+                </ul>
+            </nav>
+            <button>Inizia</button>
+        </div>
     </header>
 
     <section class="jumbo">
 
     </section>
 
-    <section class="business-type">
-
+    <section class="business-type margin-auto">
+        <h2 class="l-txt">
+            Trova il piano business che fa per te
+        </h2>
+        <div class="payment-type">
+            <input type="radio" id="month-type" name="type-payment">
+            <span class="xs-txt">
+                Fatturazione mensile
+            </span>
+            <input type="radio" id="month-type" name="type-payment">
+            <span class="xs-txt">
+                Fatturazione annuale
+            </span>
+        </div>
         <section class="business-plans">
             <div class="business-professional"></div>
             <div class="business-advanced"></div>
