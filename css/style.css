@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERALI */
+
+body{
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.margin-auto{
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header{
+    height: 4rem;
+}
