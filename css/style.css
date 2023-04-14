@@ -26,6 +26,24 @@ ul{
     list-style-type: none;
 }
 
+.blue-button-small{
+    border: none;
+    border-radius: none;
+    color: white;
+    background-color: #0061ff;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.blue-button{
+    border: none;
+    border-radius: none;
+    color: white;
+    background-color: #0061ff;
+    padding: 0.8rem 1.6rem;
+    font-size: 1rem;
+}
+
 .xs-txt{
     font-size: 0.8rem;
 }
@@ -48,25 +66,6 @@ ul{
     font-size: 5.0rem;
     font-weight: bolder;
 }
-
-.blue-button-small{
-    border: none;
-    border-radius: none;
-    color: white;
-    background-color: #0061ff;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-}
-
-.blue-button{
-    border: none;
-    border-radius: none;
-    color: white;
-    background-color: #0061ff;
-    padding: 0.8rem 1.6rem;
-    font-size: 1rem;
-}
-
 
 /* HEADER */
 
@@ -155,14 +154,59 @@ section.business-type section.business-plans{
 
 section.business-type section.business-plans div{
     width: 30%;
-    height: 700px;
+    height: 95vh;
     border: 1px solid grey;
     background-color: yellowgreen;
 }
 
-section.business-type section.business-plans header{
-    border: 1px solid grey;
+section.business-type section.business-userType{
+    border-bottom: 1px solid grey;
     text-align: center;
+    padding: 0.5rem 0;
+}
+
+section.business-type section.business-info{
+    padding: 1.5rem;
+}
+
+section.business-type section.business-info h3{
+    padding: 0.5rem 0;
+}
+
+section.business-type section.business-info button{
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+section.business-type section.business-info p{
+    padding-bottom: 0.5rem;
+}
+
+section.business-type ul.attribute{
+    padding: 2rem 0;
+}
+
+section.business-type ul.attribute li{
+    padding: 0.5rem 0;
+}
+
+section.business-type ul.attribute p{
+    padding-right: 0.3rem;
+}
+
+section.business-type section.business-info hr{
+    width: 20%;
+    margin-bottom: 2.5rem;
+    margin-top: 1.3rem;
+}
+
+section.business-type ul.highlights{
+    padding-top: 1.5rem;
+}
+
+section.business-type ul.highlights p.custom-list{
+    padding-right: 0.3rem;
+    color: #0061ff;
 }
 
 section.business-type section.prices-request{
