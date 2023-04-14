@@ -128,14 +128,113 @@ section.find-partner p{
 
 /* OPERATIONS*/
 
+section.operations{
+    padding: 10rem 0;
+}
+
 section.operations div.cards-row{
     justify-content: space-between;
 }
 
 section.operations div.cards-row div{
     width: 30%;
+    margin-top: 5rem;
 }
 
 section.operations div.cards img{
     width: 100%;
+}
+
+/* MORE ABOUT COMPANIES */
+
+section.more-about-companies{
+    margin-bottom: 10rem;
+}
+
+section.more-about-companies h2{
+    margin-bottom: 3rem;
+}
+
+/* COMPANIES */
+
+section.companies div.square-container{
+    height: calc(100vw / 3);
+}
+
+section.companies div.square-container{
+    width: calc(100% / 3);
+    flex-wrap: wrap;
+}
+
+div.square-container div.square-brand{
+    width: 50%;
+    height: 50%;
+}
+
+section.companies div.middle{
+    padding: 2rem;
+}
+
+section.companies div.middle img{
+    width: 50%;
+}
+
+section.companies div.designit{
+    background-color: #a2d39b;
+}
+
+section.companies div.asu{
+    background-color:#61082b;    
+}
+
+section.companies div.uf{
+    background-color: #0093ce;
+}
+
+section.companies div.topps{
+    background-color: #ff1c1c;
+}
+
+section.companies div.wbr{
+    background-color: #d5001f;
+}
+
+section.companies div.hearst{
+    background-color: #b4d0e7;
+}
+
+section.companies div.lonely-planet{
+    background-color: #0d2481;
+}
+
+section.companies div.clear-channel{
+    background-color: #ffd830;
+}
+
+/* FREE TRIAL */
+
+section.free-trial{
+    height: 35vh;
+    background-color: #b4d0e7;
+}
+
+/* FAQ */
+
+section.faq{
+    margin-top: 10rem;
+}
+
+section.faq h2{
+    padding-bottom: 3.5rem;
+    border-bottom: 1px solid rgb(68, 68, 68);
+}
+
+section.faq div.question{
+    font-weight: 600;
+    padding: 2.5rem 0;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(68, 68, 68);
+}
+section.faq i{
+    padding-right: 2rem;
 }
