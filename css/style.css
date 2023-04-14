@@ -45,10 +45,27 @@ ul{
 }
 
 .xl-txt{
-    font-size: 3.0rem;
+    font-size: 5.0rem;
     font-weight: bolder;
 }
 
+.blue-button-small{
+    border: none;
+    border-radius: none;
+    color: white;
+    background-color: #0061ff;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.blue-button{
+    border: none;
+    border-radius: none;
+    color: white;
+    background-color: #0061ff;
+    padding: 0.8rem 1.6rem;
+    font-size: 1rem;
+}
 
 
 /* HEADER */
@@ -56,6 +73,11 @@ ul{
 header{
     height: 5rem;
     justify-content: space-between;
+}
+
+header,
+header div.header-left,
+header div.header-right{
     align-items: center;
 }
 
@@ -69,15 +91,51 @@ header button{
 
 div.logo img{
     width: 100%;
-    vertical-align: middle;
+    padding-left: 1rem;
 }
 
-/* JUMBO */
 
-section.jumbo{
+/* JUMBOTRON */
+
+section.jumbotron{
     height: 70vh;
     margin-bottom: 17vh;
     background-color: #b4d0e7;
+}
+
+section.jumbotron div.container,
+section.jumbotron h1{
+    width: 65%;
+}
+
+section.jumbotron h1{
+    padding: 2.5rem 0;
+}
+
+section.jumbotron div.container-left{
+    width: 35%;
+    padding: 0 1.5rem;
+}
+
+section.jumbotron div.container-right{
+    width: 65%;    
+}
+
+section.jumbotron div.container-left p{
+    padding-bottom: 1.5rem;
+}
+
+section.jumbotron div.container-left i{
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+
+section.jumbotron div.container-left button{
+    margin-bottom: 1.5rem;
+}
+
+section.jumbotron img{
+    width: 100%;
 }
 
 /* BUSINESS TYPE */
@@ -98,7 +156,13 @@ section.business-type section.business-plans{
 section.business-type section.business-plans div{
     width: 30%;
     height: 700px;
+    border: 1px solid grey;
     background-color: yellowgreen;
+}
+
+section.business-type section.business-plans header{
+    border: 1px solid grey;
+    text-align: center;
 }
 
 section.business-type section.prices-request{
