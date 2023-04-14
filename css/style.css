@@ -238,3 +238,42 @@ section.faq div.question{
 section.faq i{
     padding-right: 2rem;
 }
+
+
+/* FOOTER */
+
+footer{
+    background-color: #000000;
+    color: white;
+    margin-top: 10rem;
+}
+
+footer div.find-more{
+    width: 70%;
+    padding-top: 5rem;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+}
+
+footer div.find-more h3{
+    padding-bottom: 2rem;
+}
+
+footer div.find-more li{
+    line-height: 2.5rem;
+}
+
+footer section.change-language{
+    width: 70%;
+    color: rgb(168, 168, 168);
+}
+
+footer section.change-language>div{
+    padding: 3rem 0;
+    border-top: 1px solid white;
+    width: 10%;
+}
+
+footer section.change-language span{
+    padding: 0 0.3rem;
+}
