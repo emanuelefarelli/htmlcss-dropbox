@@ -53,10 +53,10 @@ ul{
 }
 
 .white-button{
-    border: 1px solid black;
+    border: none;
     border-radius: none;
     background-color: white;
-    padding: 0.8rem 1.6rem;
+    padding: 0.8rem 3rem;
     font-size: 1rem;
 }
 
@@ -74,7 +74,7 @@ ul{
 }
 
 .l-txt{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 700;
 }
 
@@ -399,8 +399,18 @@ section.companies div.clear-channel{
 /* FREE TRIAL */
 
 section.free-trial{
-    height: 35vh;
+    height: 40vh;
     background-color: #b4d0e7;
+    align-items: center;
+}
+
+section.free-trial div.container{
+    justify-content: space-between;
+}
+
+section.free-trial div.container h2{
+    color: #61082b;
+    width: 55%;
 }
 
 /* FAQ */
