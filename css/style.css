@@ -333,10 +333,30 @@ section.companies div.square-container{
 div.square-container div.square-brand{
     width: 50%;
     height: 50%;
+    position: relative;
+}
+
+div.square-container div.square-brand img{
+    width: 60%;
+    filter: invert(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
 }
 
 section.companies div.middle{
     padding: 2rem;
+    background-color: #f5f5f5;
+}
+
+section.companies div.middle hr{
+    width: 20%;
+    margin-top: 3rem;
+}
+
+section.companies div.middle p{
+    padding-top: 3rem;
 }
 
 section.companies div.middle img{
@@ -345,6 +365,7 @@ section.companies div.middle img{
 
 section.companies div.designit{
     background-color: #a2d39b;
+    border: 15px solid #d1e9cd;
 }
 
 section.companies div.asu{
