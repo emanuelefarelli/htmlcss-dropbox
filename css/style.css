@@ -19,7 +19,7 @@ body{
 }
 
 .width-standard{
-    width: 50%;
+    width: 55%;
 }
 
 ul{
@@ -81,6 +81,10 @@ ul{
 .xl-txt{
     font-size: 5.0rem;
     font-weight: bolder;
+}
+
+.blue-txt{
+    color: #0061ff;
 }
 
 /* HEADER */
@@ -274,6 +278,7 @@ section.find-partner img{
 
 section.find-partner div{
     padding: 3rem 2rem;
+    padding-right: 5rem;
 }
 
 section.find-partner p{
@@ -291,8 +296,13 @@ section.operations div.cards-row{
 }
 
 section.operations div.cards-row div{
-    width: 30%;
+    width: calc(100% / 3);
+    padding: 0 1rem;
     margin-top: 5rem;
+}
+
+section.operations div.cards-row div h3{
+    margin-bottom: 2rem;
 }
 
 section.operations div.cards img{
