@@ -214,8 +214,35 @@ section.business-type ul.highlights p.custom-list{
 
 section.business-type section.prices-request{
     width: 100%;
-    height: 17rem ;
-    background-color: yellowgreen;
+    height: 15rem ;
+}
+
+section.business-type section.prices-request{
+    border: 1px solid grey;
+}
+
+section.enterprise-info{
+    padding: 2rem 1.5rem;
+}
+
+section.enterprise-info div.enterprise-left{
+    width: 70%;
+}
+
+section.enterprise-info div.enterprise-rigth{
+    width: 30%;
+}
+
+section.enterprise-info div.enterprise-left h3.xs-txt{
+    margin: 1rem 0;
+}
+
+section.enterprise-info div.enterprise-left p{
+    margin-top: 2.5rem;
+}
+
+section.enterprise-info div.enterprise-right button{
+    margin-left: 3rem;
 }
 
 /* FIND PARTNER */
