@@ -178,7 +178,6 @@ section.business-type section.business-plans{
 
 section.business-type section.business-plans div{
     width: 30%;
-    height: 95vh;
     border: 1px solid grey;
 }
 
@@ -456,6 +455,11 @@ footer div.find-more h3{
 
 footer div.find-more li{
     line-height: 2.5rem;
+}
+
+footer li a{
+    text-decoration: none;
+    color: white;
 }
 
 footer section.change-language{
